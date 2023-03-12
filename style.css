@@ -1,11 +1,8 @@
-div{
-	border: 3px solid red;
-	display:inline;
-}
-
 span{
-	border-width:5px;
-	border-style:dotted;
-	border-color:blue;
-	display:block;
+	box-sizing:border-box;
+	display:inline-block;
+	width:500px; height:500px;
+	border: 1px solid purple;
+
+	background: no-repeat url(./fall.jpeg) center;
 }

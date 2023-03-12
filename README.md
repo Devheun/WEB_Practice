@@ -76,3 +76,18 @@
 - display 속성은 요소의 블록, 인라인 레벨 여부 변경 처리 가능.
 
 - boder 속성은 여러가지 속성을 함께 정의할 수 있는 '단축속성' (border-style, border-width,border-color)
+
+- 하나의 박스는 네 개의 영역으로 구성 (content,padding,border,margin)
+
+- 인라인 요소는 content 영역의 height, width 지정이 안되므로 지정하려면 display 속성 변경해야함!
+
+- 여백은 상하좌우 네 면에 존재하는 영역으로 상하좌우 두께를 개별적으로 정할 수도 있고, 함께 정의할 수도 있다.
+(padding, margin)
+
+- box-sizing 속성은 너비와 높이가 포함할 영역을 변경함으로써 너비와 높이의 계산 방법 결정할 수 있다.
+
+- box-sizing 속성의 기본값은 content-box이다, border-box로 지정하면 테두리까지 너비와 높이에 포함된다.
+
+- background는 콘텐츠의 배경을 정의하며 단축 속성으로써 다양한 하위 속성을 포함한다.
+
+**Tip** : 정의 시 여러 경우의 수가 존재하는 속성을 학습할 때, 외우기보단 경험을 통해!
