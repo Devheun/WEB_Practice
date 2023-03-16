@@ -1,8 +1,7 @@
-span{
-	box-sizing:border-box;
-	display:inline-block;
-	width:500px; height:500px;
-	border: 1px solid purple;
+p > span{
+	color:orange;
+}
 
-	background: no-repeat url(./fall.jpeg) center;
+.text + p {
+	color:red;
 }
